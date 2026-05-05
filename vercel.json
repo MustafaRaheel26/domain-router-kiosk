@@ -1,0 +1,24 @@
+{
+  "rewrites": [
+    {
+      "source": "/admin",
+      "destination": "https://choochootortas-admin.vercel.app/admin"
+    },
+    {
+      "source": "/admin/:match*",
+      "destination": "https://choochootortas-admin.vercel.app/admin/:match*"
+    },
+    {
+      "source": "/kitchen",
+      "destination": "https://choochootortas-kitchen.vercel.app/kitchen"
+    },
+    {
+      "source": "/kitchen/:match*",
+      "destination": "https://choochootortas-kitchen.vercel.app/kitchen/:match*"
+    },
+    {
+      "source": "/(.*)",
+      "destination": "https://choochootortas.vercel.app/$1"
+    }
+  ]
+}
