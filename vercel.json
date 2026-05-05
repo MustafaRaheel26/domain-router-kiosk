@@ -2,19 +2,19 @@
   "rewrites": [
     {
       "source": "/admin",
-      "destination": "https://choochootortas-admin.vercel.app/admin"
+      "destination": "https://choochootortas-admin.vercel.app"
     },
     {
       "source": "/admin/:match*",
-      "destination": "https://choochootortas-admin.vercel.app/admin/:match*"
+      "destination": "https://choochootortas-admin.vercel.app/:match*"
     },
     {
       "source": "/kitchen",
-      "destination": "https://choochootortas-kitchen.vercel.app/kitchen"
+      "destination": "https://choochootortas-kitchen.vercel.app"
     },
     {
       "source": "/kitchen/:match*",
-      "destination": "https://choochootortas-kitchen.vercel.app/kitchen/:match*"
+      "destination": "https://choochootortas-kitchen.vercel.app/:match*"
     },
     {
       "source": "/(.*)",
